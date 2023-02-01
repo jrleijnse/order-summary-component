@@ -69,61 +69,113 @@ h6 {
 .card-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  width: 400px;
+  width: 450px;
   background-color: hsl(225, 100%, 98%);
+  border-radius: 1.5rem;
 }
 
 .card-img {
+  border-radius: 1.5rem 1.5rem 0rem 0rem;
 }
 
 .card-content-container {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .card-title {
+  font-weight: 900;
+  text-align: center;
   color: hsl(223, 47%, 23%);
   line-height: 1;
   font-size: 1.8rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .card-text {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 1.2rem;
+  padding: 0rem 1.5rem;
 }
 
 .annual-plan-container {
+  background-color: hsl(225, 100%, 97%);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.music-icon {
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
 }
 
 .price-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
 
 .plan-type {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
 }
 
 .plan-price {
+  color: hsl(224, 23%, 55%);
 }
 
 .change {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-left: auto;
+  border: none;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.change:hover {
+  color: hsl(245, 75%, 65%);
+  text-decoration: none;
 }
 
 .btn-proceed {
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  padding: 0.9rem;
+  border-radius: 0.6rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btn-proceed:hover {
+  background-color: hsl(245, 75%, 65%);
 }
 
 .btn-cancel {
+  width: fit-content;
+  background-color: inherit;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  cursor: pointer;
+  align-self: center;
+  transition: all 0.3s;
+}
+.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
 }
 
 .attribution {
+  margin-top: 2rem;
   font-size: 11px;
   text-align: center;
 }
