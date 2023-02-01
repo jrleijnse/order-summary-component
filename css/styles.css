@@ -1,0 +1,132 @@
+/* ------------------- CSS RESET --------------------  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  background: hsl(225, 100%, 94%) url(../images/pattern-background-desktop.svg)
+    0 0 / contain no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+/* ------------------- CSS RESET --------------------  */
+
+/* ## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card-img {
+}
+
+.card-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.card-title {
+  color: hsl(223, 47%, 23%);
+  line-height: 1;
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.card-text {
+}
+
+.annual-plan-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-icon {
+}
+
+.price-container {
+}
+
+.plan-type {
+}
+
+.plan-price {
+}
+
+.change {
+}
+
+.btn-proceed {
+}
+
+.btn-proceed:hover {
+}
+
+.btn-cancel {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
