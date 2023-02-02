@@ -1,0 +1,16 @@
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 12px;
+  }
+  .card-container {
+    width: 330px;
+  }
+
+  .card-content-container {
+    padding: 1.8rem;
+  }
+
+  .card-text {
+    padding: 0rem 1rem;
+  }
+}
