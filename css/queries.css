@@ -14,8 +14,16 @@
     padding: 0rem 1rem;
   }
 
+  .annual-plan-container {
+    padding: 1.3rem;
+  }
+
   .btn-proceed {
     font-size: 1.3rem;
     padding: 1.2rem;
+  }
+
+  .change {
+    font-size: 1rem;
   }
 }
