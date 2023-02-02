@@ -6,17 +6,27 @@
     width: 330px;
   }
 
+  .card-img {
+    margin-bottom: 1rem;
+  }
+
   .card-content-container {
     padding: 2rem;
+  }
+
+  .card-title {
+    margin-bottom: 1.5rem;
   }
 
   .card-text {
     font-size: 1.3rem;
     padding: 0rem 1rem;
+    margin-bottom: 2rem;
   }
 
   .annual-plan-container {
     padding: 1rem;
+    margin-bottom: 2.2rem;
   }
 
   .btn-proceed {
