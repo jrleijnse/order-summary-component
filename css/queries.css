@@ -29,6 +29,11 @@
     margin-bottom: 2.2rem;
   }
 
+  .price-container {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+  }
+
   .btn-proceed {
     font-size: 1.3rem;
     padding: 1.2rem;
