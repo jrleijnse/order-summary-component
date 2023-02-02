@@ -7,15 +7,15 @@
   }
 
   .card-content-container {
-    padding: 1.8rem;
+    padding: 2rem;
   }
 
   .card-text {
-    padding: 0rem 1rem;
+    padding: 0rem 0.8rem;
   }
 
   .annual-plan-container {
-    padding: 1.3rem;
+    padding: 1rem;
   }
 
   .btn-proceed {
@@ -24,6 +24,6 @@
   }
 
   .change {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
