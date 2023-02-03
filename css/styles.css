@@ -71,6 +71,7 @@ h6 {
   width: 450px;
   background-color: hsl(225, 100%, 98%);
   border-radius: 1.5rem;
+  box-shadow: 0 1rem 1rem hsl(223, 87%, 63%, 20%);
 }
 
 .card-img {
@@ -151,7 +152,7 @@ h6 {
   cursor: pointer;
   margin-bottom: 2rem;
   transition: all 0.3s;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 1rem hsl(223, 87%, 63%, 20%);
 }
 
 .btn-proceed:hover {
